@@ -480,3 +480,29 @@ td.pre, div.pre, div.diff {
 .kwc    { color:#d4663d; }
 .kwd    { color:#2928ff; }
 
+/* Changes from jaymz */
+.header, .page_nav, .search {
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.page_footer {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.page_nav, .page_header {
+  text-transform: capitalize;
+}
+.project_list, .shortlog, .commit_search, .tree {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.projects_list tr td:first-child, .object_header tr td:first-child {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.project_list tr td:first-child a {
+  font-weight: bold;
+  color: #2163a4;
+}
+.project_list th {
+  font-weight: bold;
+}
