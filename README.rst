@@ -18,3 +18,12 @@ If you see some missing things or errors, please post a comment.
 
 .. _gitweb: http://git.or.cz/gitwiki/Gitweb
 .. _kogakure.github.com/gitweb-theme: http://kogakure.github.com/gitweb-theme
+
+
+UDOX Modifications
+==================
+
+We have it load in jQuery to make playing around far easier. Put any jquery specific stuff
+within custom.js. The styles have been updated to add a few more round corners and github-like
+touches.
+
