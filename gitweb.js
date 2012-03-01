@@ -1,18 +1,6 @@
 // Copyright (C) 2007, Fredrik Kuivinen <frekui@gmail.com>
 //               2007, Petr Baudis <pasky@suse.cz>
 //          2008-2009, Jakub Narebski <jnareb@gmail.com>
-//          2012, jaymz campbell <jaymz@jaymz.eu>
-
-// Append in jQuery
-var script = document.createElement('script');
-script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
-var customScript = document.createElement('script');
-customScript.src = 'static/custom.js';
-customScript.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(customScript);
-
 
 /**
  * @fileOverview JavaScript code for gitweb (git web interface).
@@ -884,9 +872,4 @@ function startBlame(blamedataUrl, bUrl) {
 	pollTimer = setInterval(xhr.onreadystatechange, 1000);
 }
 
-function onloadTZSetup() {
-    // stub
-}
-
 // end of gitweb.js
-
