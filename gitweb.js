@@ -872,4 +872,7 @@ function startBlame(blamedataUrl, bUrl) {
 	pollTimer = setInterval(xhr.onreadystatechange, 1000);
 }
 
+function onloadTZSetup() {
+    // stub
+}
 // end of gitweb.js
