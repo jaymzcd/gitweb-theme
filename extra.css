@@ -1,0 +1,25 @@
+.share-tip {
+    -moz-box-shadow: 2px 2px 4px #999999;
+    -webkit-box-shadow: 2px 2px 4px #999999;
+    box-shadow: 2px 2px 4px #999999;
+    background-color: #EAEAEA;
+    margin-top: 5px;
+    font-size: 12px;
+    max-width: 500px;
+    overflow: auto;
+    padding: 10px;
+    position: absolute;
+    z-index: 100;
+    font-family: Arial,Liberation Sans,DejaVu Sans,sans-serif;
+    display: none;
+}
+
+.share-tip input {
+    display: block;
+    width: 392px;
+}
+
+.share-tip .close-share-tip {
+    float: left;
+    cursor: pointer;
+}
