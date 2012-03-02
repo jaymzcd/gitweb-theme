@@ -17,33 +17,32 @@ $(function(){
                     }
                     ).click(
                         function(){
-                            console.log($(this));
-
                             $('<div>', {
-                                'class': "share-tip"
+                                'class': "copybox"
                             })
-                            .text('copy this clone command ')
+                            .text('copy this clone command')
                             .append(
                                 $('<input>')
                                     .attr('type', 'text')
                                     .val(command)
                             ).append(
                                 $('<a>', {
-                                    'class': 'close-share-tip',
+                                    'class': 'close-copybox',
                                     'text': 'close'
                                 })
                             )
                                 .insertAfter(this)
-                                .show();
+                                .show('fast')
+                                .find('input')
+                                .select();
                         }
                     )
                 );
 
         });
 
-    $('.close-share-tip')
+    $('.close-copybox')
         .live('click', function(){
-            console.log($(this));
             $(this)
                 .parent()
                 .hide('fast', function(){

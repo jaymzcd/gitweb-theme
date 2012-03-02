@@ -1,4 +1,4 @@
-.share-tip {
+.copybox {
     -moz-box-shadow: 2px 2px 4px #999999;
     -webkit-box-shadow: 2px 2px 4px #999999;
     box-shadow: 2px 2px 4px #999999;
@@ -14,12 +14,12 @@
     display: none;
 }
 
-.share-tip input {
+.copybox input {
     display: block;
     width: 392px;
 }
 
-.share-tip .close-share-tip {
+.copybox .close-copybox {
     float: left;
     cursor: pointer;
 }
