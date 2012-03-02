@@ -3,14 +3,19 @@ $(function(){
         .each(function(){
             var git_link = $(this).find('a.list:eq(0)');
             var name = git_link.text();
+            var path = '/var/git/' + name;
             git_link
-                .after(
+                .before(
                     $('<a>', {
                         text: '[clone]',
-                        css: {marginLeft: '10px'}
+                        css: {
+                            marginRight: '15px',
+                            color: '#AFAFAF',
+                            cursor: 'pointer'
+                            }
                     }).click(
                         function(){
-                            alert('git clone koopa.u-dox.com:/var/git/' + name);
+                            alert('git clone koopa.u-dox.com:' + path);
                         }
                     )
                 )
