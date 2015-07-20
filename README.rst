@@ -27,3 +27,8 @@ We have it load in jQuery to make playing around far easier. Put any jquery spec
 within custom.js. The styles have been updated to add a few more round corners and github-like
 touches.
 
+
+
+.. image:: https://badges.gitter.im/Join%20Chat.svg
+   :alt: Join the chat at https://gitter.im/jaymzcd/gitweb-theme
+   :target: https://gitter.im/jaymzcd/gitweb-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
